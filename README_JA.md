@@ -39,7 +39,7 @@ Alchemyは属性を使用したInspector拡張を提供するライブラリで�
 3. 以下のURLを入力する
 
 ```
-https://github.com/AnnulusGames/Alchemy.git?path=/Alchemy/Assets/Alchemy
+https://github.com/HyogaFukuno/Alchemy.git?path=/Alchemy/Assets/Alchemy
 ```
 
 あるいはPackages/manifest.jsonを開き、dependenciesブロックに以下を追記
@@ -47,7 +47,7 @@ https://github.com/AnnulusGames/Alchemy.git?path=/Alchemy/Assets/Alchemy
 ```json
 {
     "dependencies": {
-        "com.annulusgames.alchemy": "https://github.com/AnnulusGames/Alchemy.git?path=/Alchemy/Assets/Alchemy"
+        "com.hyoga-fukuno.alchemy": "https://github.com/HyogaFukuno/Alchemy.git?path=/Alchemy/Assets/Alchemy"
     }
 }
 ```

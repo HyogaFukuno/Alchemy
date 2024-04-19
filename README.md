@@ -39,7 +39,7 @@ Additionally, with the new features of v2.0, EditorWindow extensions and Hierarc
 3. Enter the following URL:
 
 ```
-https://github.com/AnnulusGames/Alchemy.git?path=/Alchemy/Assets/Alchemy
+https://github.com/HyogaFukuno/Alchemy.git?path=/Alchemy/Assets/Alchemy
 ```
 
 Or open Packages/manifest.json and add the following to the dependencies block:
@@ -47,7 +47,7 @@ Or open Packages/manifest.json and add the following to the dependencies block:
 ```json
 {
     "dependencies": {
-        "com.annulusgames.alchemy": "https://github.com/AnnulusGames/Alchemy.git?path=/Alchemy/Assets/Alchemy"
+        "com.hyoga-fukuno.alchemy": "https://github.com/HyogaFukuno/Alchemy.git?path=/Alchemy/Assets/Alchemy"
     }
 }
 ```

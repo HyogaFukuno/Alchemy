@@ -26,7 +26,7 @@ namespace Alchemy.Editor
             var bindingFlags = BindingFlags.NonPublic | BindingFlags.Static;
             var methodInfo = utilityType.GetMethod(nameof(GetDrawerTypeForType), bindingFlags);
 
-            return (Type)methodInfo.Invoke(instance, new object[] { classType });
+            return (Type)methodInfo.Invoke(instance, new object[] { classType, null });
         }
 
         const string Name_M_Clickable = "m_Clickable";
